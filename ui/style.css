@@ -19,4 +19,8 @@ body {
     height: 200px;
 }
 
-
+.lol {
+    padding-right: 100px;
+    padding-left: 100px;
+    text-align: center;
+}
