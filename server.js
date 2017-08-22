@@ -9,14 +9,14 @@ app.get('/', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'index.html'));
 });
 
-app.get('/ui/article-one.html', function (req, res) {
+app.get('/ui/article-one', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-one'));
 });
 
-app.get('/ui/article-two.html', function (req, res) {
+app.get('/ui/article-two', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-two'));
 });
-app.get('/ui/article-three.html', function (req, res) {
+app.get('/ui/article-three', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'article-three'));
 });
 
